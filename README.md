@@ -3,15 +3,14 @@
 Visualizações interativas da cronologia bíblica, da era dos juízes a Malaquias.
 Reis, profetas e acontecimentos de Israel e Judá em diferentes formatos visuais.
 
-## Mapas
+## Mapa Estelar
 
-- **[Mapa Estelar](index.html)** (página inicial) — navegação em céu de constelações,
-  tour guiado por 33 marcos, faixas de impérios, sincronismos Norte↔Sul, busca e deep-linking.
-- **[Linha do Tempo Interativa](reis-de-israel.html)**
-- **[Cronologia Astral](reis-astral.html)**
-- **[Timeline Astral](timeline-reis-israel.html)** / **[v2](reis.v2.html)**
+A página inicial ([index.html](index.html)) é o **Mapa Estelar**: navegação em céu de
+constelações, tour guiado por 33 marcos, faixas de impérios, sincronismos Norte↔Sul,
+busca e deep-linking por `#id`.
 
-A lista completa de mapas está em [mapas.html](mapas.html).
+Conteúdo bíblico conforme a **Tradução do Novo Mundo** (citações e termos), com o
+nome divino **Jeová**.
 
 ## Rodar localmente
 
