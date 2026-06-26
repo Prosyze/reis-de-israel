@@ -1,0 +1,7 @@
+node_modules/
+.claude/
+plan.md
+image.png
+image-1.png
+*.log
+.DS_Store
