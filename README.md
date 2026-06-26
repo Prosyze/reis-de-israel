@@ -5,17 +5,17 @@ Reis, profetas e acontecimentos de Israel e Judá em diferentes formatos visuais
 
 ## Mapas
 
-- **[Mapa Estelar](reis-mapa-estelar.html)** — destaque: navegação em céu de constelações,
+- **[Mapa Estelar](index.html)** (página inicial) — navegação em céu de constelações,
   tour guiado por 33 marcos, faixas de impérios, sincronismos Norte↔Sul, busca e deep-linking.
 - **[Linha do Tempo Interativa](reis-de-israel.html)**
 - **[Cronologia Astral](reis-astral.html)**
 - **[Timeline Astral](timeline-reis-israel.html)** / **[v2](reis.v2.html)**
 
-A página inicial ([index.html](index.html)) lista todos.
+A lista completa de mapas está em [mapas.html](mapas.html).
 
 ## Rodar localmente
 
-É um site estático — basta abrir `index.html` no navegador.
+É um site estático — basta abrir `index.html` no navegador (já é o Mapa Estelar).
 
 Ou servir com Node:
 

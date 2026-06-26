@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reis de Israel — Cronologias Interativas</title>
+<meta name="description" content="Visualizações interativas da cronologia bíblica: dos juízes a Malaquias.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&family=Inter:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  min-height:100vh;font-family:'Inter',system-ui,sans-serif;color:#e2e8f0;
+  background:
+    radial-gradient(circle at 20% 15%,rgba(99,102,241,.15),transparent 30%),
+    radial-gradient(circle at 80% 20%,rgba(167,139,250,.13),transparent 28%),
+    linear-gradient(180deg,#05040f 0%,#0a0820 50%,#03030a 100%);
+  display:flex;flex-direction:column;align-items:center;
+  padding:60px 20px;
+}
+.star-field{position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background-image:radial-gradient(circle,rgba(255,255,255,.5) 0 1px,transparent 1.3px),
+                   radial-gradient(circle,rgba(255,255,255,.25) 0 1px,transparent 1.4px);
+  background-size:96px 96px,150px 150px;background-position:0 0,40px 50px;opacity:.3}
+.eyebrow{color:#f4c430;text-transform:uppercase;letter-spacing:3px;font-size:.72rem;font-weight:600;margin-bottom:14px}
+h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(2rem,6vw,3.6rem);text-align:center;line-height:1.05;
+  background:linear-gradient(135deg,#f4c430,#fff8e7,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  margin-bottom:12px}
+.sub{color:#94a3b8;text-align:center;max-width:580px;font-size:1.02rem;line-height:1.6;margin-bottom:48px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;width:min(960px,100%)}
+.card{
+  display:flex;flex-direction:column;text-decoration:none;color:inherit;
+  background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:16px;
+  padding:24px;transition:all .25s;position:relative;overflow:hidden;
+}
+.card:hover{border-color:rgba(244,196,48,.45);background:rgba(255,255,255,.06);transform:translateY(-3px)}
+.card.featured{grid-column:1/-1;background:linear-gradient(150deg,rgba(244,196,48,.1),rgba(167,139,250,.08));border-color:rgba(244,196,48,.3)}
+.badge{display:inline-block;font-size:.62rem;letter-spacing:1.5px;text-transform:uppercase;color:#f4c430;font-weight:700;margin-bottom:10px}
+.card h2{font-family:'Cinzel',serif;font-size:1.3rem;font-weight:900;color:#f8fafc;margin-bottom:8px}
+.card p{color:#94a3b8;font-size:.88rem;line-height:1.55}
+.card .go{margin-top:16px;color:#f4c430;font-size:.82rem;font-weight:600}
+footer{margin-top:56px;color:#475569;font-size:.78rem;text-align:center;line-height:1.6}
+footer a{color:#64748b;text-decoration:none}
+footer a:hover{color:#f4c430}
+</style>
+</head>
+<body>
+<div class="star-field"></div>
+
+<div class="eyebrow">Cronologia Bíblica Interativa</div>
+<h1>Reis de Israel</h1>
+<p class="sub">Da era dos juízes a Malaquias — visualizações interativas dos reis, profetas e acontecimentos que moldaram a história de Israel e Judá.</p>
+
+<div class="grid">
+  <a class="card featured" href="index.html">
+    <span class="badge">✦ Destaque · Tour Guiado</span>
+    <h2>Mapa Estelar</h2>
+    <p>Navegue pela história como um céu de constelações: arraste, dê zoom, clique nas estrelas e faça a "viagem guiada" por 33 marcos da Bíblia — com faixas de impérios, sincronismos entre Norte e Sul e busca inteligente.</p>
+    <span class="go">Explorar o mapa →</span>
+  </a>
+
+  <a class="card" href="reis-de-israel.html">
+    <span class="badge">Linha do tempo</span>
+    <h2>Linha do Tempo Interativa</h2>
+    <p>Cronologia em cartões com filtros por tipo, avaliação e busca por referência bíblica.</p>
+    <span class="go">Abrir →</span>
+  </a>
+
+  <a class="card" href="reis-astral.html">
+    <span class="badge">Cronologia</span>
+    <h2>Cronologia Astral</h2>
+    <p>Outra abordagem visual da mesma história, em estilo astral.</p>
+    <span class="go">Abrir →</span>
+  </a>
+
+  <a class="card" href="timeline-reis-israel.html">
+    <span class="badge">Timeline</span>
+    <h2>Timeline Astral</h2>
+    <p>Versão em duas pistas: Israel ao Norte e Judá ao Sul, com profetas no centro.</p>
+    <span class="go">Abrir →</span>
+  </a>
+
+  <a class="card" href="reis.v2.html">
+    <span class="badge">Versão 2</span>
+    <h2>Timeline (v2)</h2>
+    <p>Variação da timeline astral.</p>
+    <span class="go">Abrir →</span>
+  </a>
+</div>
+
+<footer>
+  Cronologia da monarquia baseada em E. Thiele.<br>
+  Feito com ☕ e ✦
+</footer>
+</body>
+</html>
