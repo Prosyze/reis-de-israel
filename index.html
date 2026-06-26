@@ -898,7 +898,7 @@ const tipoLabel={juiz:'Juiz de Israel',rei:'Rei',profeta:'Profeta'};
 const reinoLabel={unido:'Reino Unido',norte:'Reino do Norte · Israel',sul:'Reino do Sul · Judá',exilio:'Exílio na Babilônia',retorno:'Pós-Exílio · O Retorno'};
 function openPanel(d){
   const evalIco={bom:'✅',mau:'❌',misto:'⚠️'};
-  const evalTxt={bom:'Fiel a Deus',mau:'Ímpio — fez o mal aos olhos do Senhor',misto:'Avaliação Mista'};
+  const evalTxt={bom:'Fiel a Jeová',mau:'Fez o que era mau aos olhos de Jeová',misto:'Avaliação Mista'};
   document.getElementById('p-type').textContent=tipoLabel[d.tipo]+(d.reino?' · '+reinoLabel[d.reino]:'');
   document.getElementById('p-name').textContent=d.nome;
   document.getElementById('p-dates').textContent=d.datas+(d.anos>0?` · ${d.anos} anos de governo`:'');
